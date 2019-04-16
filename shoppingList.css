@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+form{
+    position: absolute;;
+    left:50%;
+    top:10%;
+    transform: translate(-50%);
+
+}
+input{
+    width: 300px;
+    height: 50px;
+
+    
+}
+button{
+    
+    cursor:pointer;
+    border:1px solid #49a5bf;
+    text-transform: uppercase;
+    text-decoration:none;
+    color:white;
+    background: linear-gradient(to bottom, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);;
+    font-family: 'Charm', cursive;
+    border-radius: 7px;
+    opacity:0.6;
+    box-shadow: 4px 5px 5px 0px rgba(73,165,191,1),0px 9px 10px rgba(0,0,0,0.7);
+    
+}
+button:hover{
+    opacity:1;
+}
+
+
+button:active
+{
+    position:relative;
+    top:3px;
+    box-shadow: 4px 5px 5px 0px rgba(73,165,191,1),0px 3px 6px rgba(0,0,0,0.9);
+    
+}
+.add{
+    padding:10px;
+    margin:30px;
+    font-size:20px;
+}
+
+h1{
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%);
+    text-transform: uppercase;
+    font-family: 'Charm', cursive;
+}
+ul{
+    position: absolute;
+    left:10%;
+    top:40%;
+    font-family: 'Charm', cursive;
+    font-size: 30px;
+    
+}
+li{
+    padding:10px;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+li:hover{
+    background-color: lightgray;
+    opacity:0.6;
+}
+li button{
+    padding:10px;
+    margin:0 15px;    
+}
